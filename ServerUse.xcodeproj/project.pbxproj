@@ -3,27 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CCB32A42508697A00848A9A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCB32A32508695600848A9A /* libsqlite3.0.tbd */; };
+		6CCB32B225086BA600848A9A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB32A725086BA600848A9A /* FMResultSet.m */; };
+		6CCB32B325086BA600848A9A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB32A825086BA600848A9A /* FMDatabaseQueue.m */; };
+		6CCB32B425086BA600848A9A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB32AA25086BA600848A9A /* FMDatabaseAdditions.m */; };
+		6CCB32B525086BA600848A9A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB32AB25086BA600848A9A /* FMDatabase.m */; };
+		6CCB32B625086BA600848A9A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB32AE25086BA600848A9A /* FMDatabasePool.m */; };
+		6CCB32B82508702300848A9A /* ItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB32B72508702300848A9A /* ItemListVC.swift */; };
 		6CF89BE92508619F00AC78F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF89BE82508619F00AC78F1 /* AppDelegate.swift */; };
 		6CF89BEB2508619F00AC78F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF89BEA2508619F00AC78F1 /* SceneDelegate.swift */; };
-		6CF89BED2508619F00AC78F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF89BEC2508619F00AC78F1 /* ViewController.swift */; };
 		6CF89BF02508619F00AC78F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF89BEE2508619F00AC78F1 /* Main.storyboard */; };
 		6CF89BF2250861A200AC78F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF89BF1250861A200AC78F1 /* Assets.xcassets */; };
 		6CF89BF5250861A200AC78F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF89BF3250861A200AC78F1 /* LaunchScreen.storyboard */; };
+		B1A81EA89FD556654D027A7A /* Pods_ServerUse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CF8DF81CB28356CF4264B9 /* Pods_ServerUse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0508DAF2BB068D1129D609CB /* Pods-ServerUse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerUse.debug.xcconfig"; path = "Target Support Files/Pods-ServerUse/Pods-ServerUse.debug.xcconfig"; sourceTree = "<group>"; };
+		62CF8DF81CB28356CF4264B9 /* Pods_ServerUse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServerUse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCB32A32508695600848A9A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		6CCB32A625086BA500848A9A /* ServerUse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerUse-Bridging-Header.h"; sourceTree = "<group>"; };
+		6CCB32A725086BA600848A9A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		6CCB32A825086BA600848A9A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		6CCB32A925086BA600848A9A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		6CCB32AA25086BA600848A9A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		6CCB32AB25086BA600848A9A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		6CCB32AC25086BA600848A9A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		6CCB32AD25086BA600848A9A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		6CCB32AE25086BA600848A9A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		6CCB32AF25086BA600848A9A /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		6CCB32B025086BA600848A9A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		6CCB32B125086BA600848A9A /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		6CCB32B72508702300848A9A /* ItemListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListVC.swift; sourceTree = "<group>"; };
 		6CF89BE52508619F00AC78F1 /* ServerUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF89BE82508619F00AC78F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CF89BEA2508619F00AC78F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CF89BEC2508619F00AC78F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6CF89BEF2508619F00AC78F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CF89BF1250861A200AC78F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CF89BF4250861A200AC78F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CF89BF6250861A200AC78F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5B9757F987C8E483881A50 /* Pods-ServerUse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerUse.release.xcconfig"; path = "Target Support Files/Pods-ServerUse/Pods-ServerUse.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CCB32A42508697A00848A9A /* libsqlite3.0.tbd in Frameworks */,
+				B1A81EA89FD556654D027A7A /* Pods_ServerUse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CCB32A525086B4A00848A9A /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB32AD25086BA600848A9A /* FMDatabase.h */,
+				6CCB32AB25086BA600848A9A /* FMDatabase.m */,
+				6CCB32AC25086BA600848A9A /* FMDatabaseAdditions.h */,
+				6CCB32AA25086BA600848A9A /* FMDatabaseAdditions.m */,
+				6CCB32B125086BA600848A9A /* FMDatabasePool.h */,
+				6CCB32AE25086BA600848A9A /* FMDatabasePool.m */,
+				6CCB32A925086BA600848A9A /* FMDatabaseQueue.h */,
+				6CCB32A825086BA600848A9A /* FMDatabaseQueue.m */,
+				6CCB32AF25086BA600848A9A /* FMDB.h */,
+				6CCB32B025086BA600848A9A /* FMResultSet.h */,
+				6CCB32A725086BA600848A9A /* FMResultSet.m */,
+				6CCB32A625086BA500848A9A /* ServerUse-Bridging-Header.h */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		6CF89BDC2508619F00AC78F1 = {
 			isa = PBXGroup;
 			children = (
 				6CF89BE72508619F00AC78F1 /* ServerUse */,
 				6CF89BE62508619F00AC78F1 /* Products */,
+				CE2F9BBC9346F2224CC8640B /* Pods */,
+				8D2F7AB186F178D6F707EE54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +102,34 @@
 		6CF89BE72508619F00AC78F1 /* ServerUse */ = {
 			isa = PBXGroup;
 			children = (
+				6CCB32A525086B4A00848A9A /* fmdb */,
 				6CF89BE82508619F00AC78F1 /* AppDelegate.swift */,
 				6CF89BEA2508619F00AC78F1 /* SceneDelegate.swift */,
-				6CF89BEC2508619F00AC78F1 /* ViewController.swift */,
 				6CF89BEE2508619F00AC78F1 /* Main.storyboard */,
 				6CF89BF1250861A200AC78F1 /* Assets.xcassets */,
 				6CF89BF3250861A200AC78F1 /* LaunchScreen.storyboard */,
 				6CF89BF6250861A200AC78F1 /* Info.plist */,
+				6CCB32B72508702300848A9A /* ItemListVC.swift */,
 			);
 			path = ServerUse;
+			sourceTree = "<group>";
+		};
+		8D2F7AB186F178D6F707EE54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB32A32508695600848A9A /* libsqlite3.0.tbd */,
+				62CF8DF81CB28356CF4264B9 /* Pods_ServerUse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2F9BBC9346F2224CC8640B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0508DAF2BB068D1129D609CB /* Pods-ServerUse.debug.xcconfig */,
+				7E5B9757F987C8E483881A50 /* Pods-ServerUse.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CF89BF9250861A200AC78F1 /* Build configuration list for PBXNativeTarget "ServerUse" */;
 			buildPhases = (
+				D39142C04379675701AA57BB /* [CP] Check Pods Manifest.lock */,
 				6CF89BE12508619F00AC78F1 /* Sources */,
 				6CF89BE22508619F00AC78F1 /* Frameworks */,
 				6CF89BE32508619F00AC78F1 /* Resources */,
+				637BF5BAAF717081A6349230 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +166,7 @@
 				TargetAttributes = {
 					6CF89BE42508619F00AC78F1 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -133,14 +201,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		637BF5BAAF717081A6349230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ServerUse/Pods-ServerUse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ServerUse/Pods-ServerUse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ServerUse/Pods-ServerUse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D39142C04379675701AA57BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ServerUse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6CF89BE12508619F00AC78F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF89BED2508619F00AC78F1 /* ViewController.swift in Sources */,
+				6CCB32B325086BA600848A9A /* FMDatabaseQueue.m in Sources */,
 				6CF89BE92508619F00AC78F1 /* AppDelegate.swift in Sources */,
+				6CCB32B525086BA600848A9A /* FMDatabase.m in Sources */,
+				6CCB32B225086BA600848A9A /* FMResultSet.m in Sources */,
+				6CCB32B625086BA600848A9A /* FMDatabasePool.m in Sources */,
 				6CF89BEB2508619F00AC78F1 /* SceneDelegate.swift in Sources */,
+				6CCB32B425086BA600848A9A /* FMDatabaseAdditions.m in Sources */,
+				6CCB32B82508702300848A9A /* ItemListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +397,10 @@
 		};
 		6CF89BFA250861A200AC78F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0508DAF2BB068D1129D609CB /* Pods-ServerUse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59RGUS3272;
 				INFOPLIST_FILE = ServerUse/Info.plist;
@@ -293,6 +410,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hs.ServerUse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ServerUse/fmdb/ServerUse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +419,10 @@
 		};
 		6CF89BFB250861A200AC78F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5B9757F987C8E483881A50 /* Pods-ServerUse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59RGUS3272;
 				INFOPLIST_FILE = ServerUse/Info.plist;
@@ -311,6 +432,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hs.ServerUse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ServerUse/fmdb/ServerUse-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
